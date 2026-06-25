@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://15nn87148t24" path="res://Assets/icon.svg" id="2_it8n0"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xrivr"]
-size = Vector2(129, 135)
+size = Vector2(127, 133)
 
 [node name="CharacterBody2D" type="CharacterBody2D" unique_id=108493381]
 script = ExtResource("1_88kja")
@@ -13,7 +13,7 @@ script = ExtResource("1_88kja")
 texture = ExtResource("2_it8n0")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=500363307]
-position = Vector2(-1.5, -0.5)
+position = Vector2(-2.5, -1.5)
 shape = SubResource("RectangleShape2D_xrivr")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=416219721]
